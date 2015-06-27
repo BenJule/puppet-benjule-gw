@@ -1,0 +1,85 @@
+{
+  "name": "stesie-gluon",
+  "version": "0.1.0",
+  "source": "https://github.com/ffansbach/gluon-puppet",
+  "author": "stesie",
+  "license": "Apache License, Version 2.0",
+  "summary": "puppet module to ease setup of gluon gateway server",
+  "description": "A puppet module to set up everything needed for a Freifunk Mesh Gateway, using Gluon firmware.",
+  "project_page": "https://github.com/ffansbach/",
+  "dependencies": [
+    {
+      "name": "puppetlabs/apache",
+      "version_requirement": ">= 1.1.1"
+    },
+    {
+      "name": "puppetlabs/apt",
+      "version_requirement": ">= 1.6.0"
+    },
+    {
+      "name": "puppetlabs/concat",
+      "version_requirement": ">= 1.1.1"
+    },
+    {
+      "name": "puppetlabs/firewall",
+      "version_requirement": ">= 1.1.3"
+    },
+    {
+      "name": "camptocamp/kmod",
+      "version_requirement": ">= 0.1.3"
+    },
+    {
+      "name": "puppetlabs/mysql",
+      "version_requirement": ">= 2.3.1"
+    },
+    {
+      "name": "example42/network",
+      "version_requirement": ">= 3.1.14"
+    },
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.3.2"
+    },
+    {
+      "name": "thias/sysctl",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "35c323d76f4cab9af454c13c7a359233",
+    "README.def": "8c4047e209560b9ae4f9d290d6acf90a",
+    "README.md": "3be83e8440a938dd7c8b76a288fcb66d",
+    "files/header.tpl.html": "b4c022a0fe33a42338576d8f43cd7277",
+    "files/install-batman-adv": "fd25835eca22f72532f11ce400a3f4ad",
+    "files/modules": "d2d6a0bd6f5b969a61361a56fb576e0a",
+    "files/rc.local": "a1d0c66a7bc5e70ff5bca8ca29193e18",
+    "files/site-wwwroot/router-anmelden/css/bootstrap.min.css": "75033d785db062f9f8f338a10a1b7273",
+    "files/site-wwwroot/router-anmelden/css/style.css": "e6fd17913b08c71b26bc66214ccdc4d4",
+    "files/site-wwwroot/router-anmelden/js/bootstrap.min.js": "8497dc2e634e9d9d5ab44249b96c39fb",
+    "files/site-wwwroot/router-anmelden/js/jquery-1.8.3.min.js": "e1288116312e4728f98923c79b034b67",
+    "files/site.mk": "64d49435feddbdc195fee1e00c5b184b",
+    "manifests/batman.pp": "a18e5e0ca1dd6584faa6f16ef0ad0e3b",
+    "manifests/dhcp.pp": "b030e5b3e55518ee7c9283594143d2d5",
+    "manifests/init.pp": "74364f0e19b337c81ecd52b8546f24dd",
+    "manifests/init.pp.def": "d19cef3110f7d6c1bf84285d6fd3b9e2",
+    "manifests/mesh_vpn.pp": "a66d18406898c7d71ff355d2bce41bd8",
+    "manifests/netmon.pp": "b9e53595a68a00cf09223e20e0cf67ed",
+    "manifests/site_config.pp": "ecc7f95eb06ca091f4adf5977f263cf4",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "templates/autogen.sh": "51a5d518810e7a263966dff37ebe7b98",
+    "templates/dnsmasq.conf": "f6ac8f792099e3302c24a3f6dac4e77e",
+    "templates/fastd.conf": "4bb72225bde6d54fd77cbff473278845",
+    "templates/index.html": "210b64b412ef3afc015498909ec9230f",
+    "templates/netmon-config.inc.php": "28b58de961d1d7862e6cc19f13399cb7",
+    "templates/netmon-config.sql": "a6d266be8578b1b1c3e5bc5a41bb5132",
+    "templates/radvd.conf": "6169ae197b98b01875ec9d1def71b032",
+    "templates/site-wwwroot/index.php": "713e6bbc7db278debead10ec8fad6645",
+    "templates/site-wwwroot/kill-helper": "20b9acd781c03b95cc769a56027cfe35",
+    "templates/site-wwwroot/node.php": "59dffb5d8d1f90f123ea9c62ad837941",
+    "templates/site.conf": "d8a3a83ccff8e4e79547c04bb6693268",
+    "tests/init.pp": "36d7a797f7573f28ceaa796e88b65ef1"
+  }
+}
